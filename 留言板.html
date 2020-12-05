@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			.images{
+				width: 18px;
+				height: 18px;
+			}
+		</style>
+        <link rel="stylesheet" href="./bootstrap.min.css">   
+        <script src="./jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="./demo.js"></script>
+	
+	</head>
+	<body>
+		<div class="container">
+			<div class="form-horizontal">
+				
+				<div class="form-group">
+					    <label class="col-sm-1 control-label" >
+							<img src="./css/img/用户名.svg" class="images">
+							昵称：
+						</label>
+						<div class="col-sm-11">
+							<input type="email" class="form-control name" id="InputEmail1" placeholder="请输入昵称">
+						</div>
+					  </div>
+					  <div class="form-group">
+					    <label class="col-sm-1 control-label">
+							<img src="./css/img/昵称2.svg" class="images">
+							留言：
+						</label>
+					    <div class="col-sm-11">
+					    	<textarea class="form-control message" rows='5' placeholder="请输入留言内容"></textarea>
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <div class="col-sm-offset-1 col-sm-11">
+					    	<button type="submit" class="btn btn-success submit">提交留言</button>
+					    </div>
+					  </div>
+				</div>
+				<div class="panel panel-primary">
+					<div class="panel-heading">留言列表</div>
+					<div class="panel-body">
+						<ul class="list-group messageList">
+							<!-- <li class="list-group-item">$(key)
+                                <span>说：</span>$(value)
+                            </li> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		
+	</body>
+</html>
